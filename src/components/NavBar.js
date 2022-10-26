@@ -10,7 +10,7 @@ export default function NavBar() {
                     <NavLink 
                         to="/" 
                         exact 
-                        className="inline-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+                        className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
                         activeClassName="text-white"
                     >
                         Toan Nguyen Tat
@@ -41,10 +41,10 @@ export default function NavBar() {
                         About Me!
                     </NavLink>
                 </nav>
-                <div className="inline-flex py-3 px-3 mr-6">
-                    <SocialIcon url="https://www.facebook.com/toan.nguyentat.3994" className="mr-4" target="_blank" fgColor="#fff" style={{height:35, width:35}}/>
-                    <SocialIcon url="https://twitter.com/VNNguyenTatToan" className="mr-4" target="_blank" fgColor="#fff" style={{height:35, width:35}}/>
-                    <SocialIcon url="https://www.linkedin.com/in/toàn-nguyễn-tất-6922b9174" className="mr-4" target="_blank" fgColor="#fff" style={{height:35, width:35}}/>
+                <div className="inline-flex py-3 px-3 my-6">
+                    <SocialIcon url="https://www.facebook.com/toan.nguyentat.3994" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }}/>
+                    <SocialIcon url="https://twitter.com/VNNguyenTatToan" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }}/>
+                    <SocialIcon url="https://www.linkedin.com/in/toàn-nguyễn-tất-6922b9174" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }}/>
                 </div>
             </div>
         </header>
