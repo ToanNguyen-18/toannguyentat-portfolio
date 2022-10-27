@@ -12,8 +12,8 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/about" exact element={<About />} />
-        <Route path="/post/:slug" exact element={<SinglePost />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/post/:slug" element={<SinglePost />} />
         <Route path="/post" element={<Post />} />
         <Route path="/project" element={<Project />} />
       </Routes>
